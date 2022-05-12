@@ -7,6 +7,7 @@
     "test": "jest",
     "build": "npx tsc",
     "start": "node dist/server.js",
+    "prestart": "prisma generate",
     "dev": "ts-node-dev src/server.ts"
   },
   "keywords": [],
